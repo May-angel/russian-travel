@@ -1,0 +1,32 @@
+.place__paragraph {
+    font-size: 1.125em;
+    line-height: 1.67;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 1.5rem;
+    text-align: start;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+@media screen and (max-width : 1024px) {
+    .place__paragraph {
+        font-size: 1.125em;
+        line-height: 1.67;
+
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .place__paragraph {
+        font-size: 1em;
+        line-height: 1.62; 
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .place__paragraph {
+        font-size: 1em;
+        line-height: 1.62; 
+    }
+}
