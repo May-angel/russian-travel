@@ -17,24 +17,20 @@
 
 @media screen and (max-width : 1024px) {
     .cover {
-        width: 100vw;
-        margin-left: -48px;
-        margin-bottom: 5.75rem;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width : 768px) {
     .cover {
-        width: 100vw;
-        margin-left: -24px;
+        max-width: 768px;
         margin-bottom: 5.5rem;
     }
 }
 
 @media screen and (max-width : 320px) {
     .cover {
-        width: 100vw;
-        margin-left: -16px;
+        max-width: 320px;
         margin-bottom: 4rem;
     }
 }

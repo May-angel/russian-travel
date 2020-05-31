@@ -17,18 +17,10 @@
         }
     }
     
-    @media screen and (max-width : 440px) {
+   @media screen and (max-width : 440px) {
         .place__image {
-            width: 100vw; 
-            margin-left: -16px;
+            width: 100%; 
             margin-bottom: 32px;
         }
     }
 
-    @media screen and (max-width : 320px) {
-        .place__image {
-            width: 100vw; 
-            margin-left: -16px;
-            margin-bottom: 32px;
-        }
-    }

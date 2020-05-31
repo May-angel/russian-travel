@@ -20,14 +20,9 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 80px;
-
+    background-color: #2A2C2F;
 }
 
-@media screen and (max-width : 1024px) {
-    .place {
-        
-    }
-}
 
 @media screen and (max-width : 768px) {
     .place {

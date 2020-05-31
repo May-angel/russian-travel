@@ -11,22 +11,6 @@
     text-align: center;
     color: #FFFFFF;
     }
-
-    @media screen and (max-width : 1024px) {
-        .cover__title {
-            font-size: 4.5em;
-            line-height: 1.06;
-            margin: 0 auto 2rem;
-        }
-    }
-    
-    @media screen and (max-width : 768px) {
-        .cover__title {
-            font-size: 4.5em;
-            line-height: 1.06;
-            margin: 0 auto 2rem;
-        }
-    }
     
     @media screen and (max-width : 546px) {
         .cover__title {
@@ -37,11 +21,3 @@
         }
     }
 
-    @media screen and (max-width : 320px) {
-        .cover__title {
-            width: 288px;
-            font-size: 2em;
-            line-height: 1.09;
-            margin: 0 auto 1rem;
-        }
-    }
