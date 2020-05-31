@@ -10,31 +10,31 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    position: relative;
-    width: 92.5%;
-    margin: 0 auto 5.75rem;
-    background-image: url(../../images/cover-trains.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    max-width: 1184px;
+    margin: 0 auto 92px;
+    
 }
 
 @media screen and (max-width : 1024px) {
     .cover {
-        width: 100%;
-        margin: 0 auto 5.75rem;
+        width: 100vw;
+        margin-left: -48px;
+        margin-bottom: 5.75rem;
     }
 }
 
 @media screen and (max-width : 768px) {
     .cover {
-        width: 100%;
-        margin: 0 auto 5.5rem;
+        width: 100vw;
+        margin-left: -24px;
+        margin-bottom: 5.5rem;
     }
 }
 
 @media screen and (max-width : 320px) {
     .cover {
-        width: 100%;
-        margin: 0 auto 4rem;
+        width: 100vw;
+        margin-left: -16px;
+        margin-bottom: 4rem;
     }
 }

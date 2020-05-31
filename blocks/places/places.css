@@ -1,27 +1,27 @@
 .places {
     box-sizing: border-box;
-    width: 76.875%;
-    margin: 0 auto 5.75rem;
+    max-width: 984px;
+    margin: 0 auto 92px;
    
 }
 
 @media screen and (max-width : 1024px) {
     .places {
-        width: 90.625%;
+        max-width: 928px;
         margin: 0 auto 5.75rem;
     }
 }
 
 @media screen and (max-width : 768px) {
     .places {
-        width: 93.75%;
+        max-width: 720px;
         margin: 0 auto 5.5rem;
     }
 }
 
 @media screen and (max-width : 320px) {
     .places {
-        width: 100%;
+        max-width: 320px;
         margin: 0 auto 4rem;
     }
 }

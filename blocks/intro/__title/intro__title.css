@@ -1,4 +1,5 @@
 .intro__title {
+    max-width: 690px;
     padding: 0;
     margin: 0 0 2.5rem;
     font-family: 'Inter', Arial, sans-serif;
@@ -10,10 +11,33 @@
     color: #FFFFFF;
     }
     
+
+    /*@media screen and (max-width : 1024px) {
+        .intro__title {
+            max-width: 690px;
+            
+        }
+    }*/
+    
     @media screen and (max-width : 768px) {
         .intro__title {
+            max-width: 720px;
+            
+        }
+    }
+    
+    @media screen and (max-width : 438px) {
+        .intro__title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 1.09;
+        }
+    }
 
-            font-size: calc(15.6px + 5vw);
- 
+    @media screen and (max-width : 320px) {
+        .intro__title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 1.09;
         }
     }

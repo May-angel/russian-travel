@@ -1,10 +1,25 @@
 .place__website {
-    width: 100%;
+    width: 49.187%;
     padding: 0;
     margin: 0;
-    grid-area: website;
-    justify-self: start;
-    align-self: end;   
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    order: 2;
+}
+
+@media screen and (max-width : 1024px) {
+    .place__website {
+        width: 49.138%;
+
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .place__website {
+        width: 48.889%; 
+    }
 }
 
 @media screen and (max-width : 425px) {

@@ -1,22 +1,36 @@
     .place__text {
-        width: 100%;
+        width: 49.187%;
         margin: 0;
         padding: 0;
-        grid-area: paragraph;
-        justify-self: start;
-        align-self: start;
+        
+        order: 4;
     }
 
-    @media screen and (max-width : 425px) {
+    @media screen and (max-width : 1024px) {
         .place__text {
-            width: 90%;
-            padding-left: 16px;
+            width: 49.138%;
+    
         }
     }
-
+    
+    @media screen and (max-width : 768px) {
+        .place__text {
+            width: 48.889%; 
+        }
+    }
+    
+    @media screen and (max-width : 440px) {
+        .place__text {
+            width: 100%; 
+        }
+    }
+    
     @media screen and (max-width : 320px) {
         .place__text {
-            width: 90%;
-            padding-left: 16px;
+            width: 100%; 
         }
     }
+
+
+
+  
